@@ -11,3 +11,19 @@ img {
 html {
     font-family: 'Roboto', sans-serif;
 }
+
+/*CONTAINER*/
+
+.container-big {
+    max-width: 100%;
+}
+
+.container-hero {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-medium {
+    max-width: 1000px;
+    margin: 0 auto;
+}
