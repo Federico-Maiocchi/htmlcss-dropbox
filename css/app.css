@@ -88,6 +88,10 @@ a {
     padding: 10px;
 }
 
+.button-small {
+    background-color: #0061FF;
+    color: white;
+}
 /*Main*/
 /*HERO*/
 .hero {
@@ -140,9 +144,13 @@ h1 {
     margin-bottom: 30px;
 }
 
-.container-medium {
-    border: 1px solid black;
+.business h2 {
+    margin-bottom: 20px;
 }
+
+/* .container-medium {
+    border: 1px solid black;
+} */
 
 /*SUB*/
 .container-medium-subscriptions {
@@ -182,6 +190,7 @@ h1 {
     border: 1px solid black;
     background-color: aqua;
     min-height: 80px;
+    padding: 10px;
     width: calc((100% / 12) * 4);
 }
 
