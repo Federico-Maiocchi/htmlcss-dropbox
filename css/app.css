@@ -12,6 +12,15 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+ul,ol {
+    list-style:none
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /*CONTAINER*/
 
 .container-big {
@@ -26,4 +35,34 @@ html {
 .container-medium {
     max-width: 1000px;
     margin: 0 auto;
+}
+
+/*HEADER*/
+.header-page {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.row-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.row, .information .support-login {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo {
+    width: 85px;
+    display: block;
+}
+
+.information-text {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px;
 }
