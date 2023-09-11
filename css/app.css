@@ -66,11 +66,16 @@ a {
     padding: 5px;
 }
 
-.row, .information .support-login {
+.row-information {
     display: flex;
     justify-content: space-between;
-    
 }
+
+.row-support-login {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .logo {
     width: 85px;
@@ -88,6 +93,7 @@ a {
 .hero {
     background-color: #B4D0E7;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -148,20 +154,27 @@ h1 {
 .row-subscriptions {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
-
+/*card*/
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    max-width: 100%;
+}
 /*Debug*/
 
-.debug .container-medium {
+/* .debug .container-medium {
     border: 1px solid black;
-}
+} */
 
-.debug .container-medium-subscriptions {
+/* .container-medium-subscriptions {
     border: 1px solid black;
     max-width: 1000px;
     margin: 0 auto;
-}
+} */
 
 
 
