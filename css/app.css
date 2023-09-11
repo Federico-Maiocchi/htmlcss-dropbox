@@ -9,7 +9,7 @@ img {
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
 }
 
 ul,ol {
@@ -52,7 +52,6 @@ a {
 /*HEADER*/
 .header-page {
     padding: 10px;
-    border: 1px solid black;
 }
 
 .row-header {
@@ -80,34 +79,57 @@ a {
 }
 
 /*Main*/
-
-/*Debug*/
-.debug, main {
+/*HERO*/
+.hero {
     background-color: #B4D0E7;
-    min-height: 700px;
+    padding: 20px;
 }
 
-.debug .container-hero {
-    background-color: yellow;
-    border: 2px solid black;
-    text-align: center;
+h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
 }
 
-.debug .row-hero {
-    border: 1px solid black;
+.hero .col-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-hero {
     display: flex;
     flex-wrap: wrap;
 }
 
-.debug .row-hero-text {
-    border: 1px solid black;
+.row-hero-text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    flex-grow: 1;
 }
 
-.debug .row-hero-img {
-    border: 1px solid black;
+.button {
+    background-color: #0061FF;
+    color: white;
+    line-height: 45px;
+    padding: 0px 10px;
 }
 
 .img-jumbo {
     width: 700px;
     display: block;
 }
+
+
+/*Debug*/
+/* .debug, main {
+    
+} */
+
+
+
+/* .debug .container-hero {
+    background-color: white;
+    border: 2px solid black;
+} */
+
