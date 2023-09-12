@@ -24,11 +24,11 @@ a {
 
 /*CONTAINER*/
 
-.container-big {
+.container-full {
     max-width: 100%;
 }
 
-.container-hero {
+.container-large {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -138,12 +138,12 @@ h1 {
 }
 
 .img-jumbo {
-    width: 700px;
+    width: 100%;
     display: block;
 }
 
 .arrow {
-    font-size: 70px;
+    font-size: 50px;
 }
 
 /*BUSINESS*/
@@ -185,8 +185,8 @@ h1 {
 
 
 .subscriptions .col-12 {
-    border: 1px solid black;
     height: 120px;
+    border: 1px solid black;
 }
 
 /*card*/
@@ -300,13 +300,16 @@ h1 {
 }
 
 .row-customer-reviews > a {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .a-reset {
     text-decoration: underline;
     color: blue;
 }
+/* Important customer */
+
+
 /*Debug*/
 
 /* .debug .container-medium {
@@ -318,6 +321,18 @@ h1 {
     max-width: 1000px;
     margin: 0 auto;
 } */
+
+.important-customers [class^='col-4'] {
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+.important-customers [class^='col-3'] {
+    border: 1px solid black;
+    height: 300px;
+}
+
 
 
 
