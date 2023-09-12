@@ -39,6 +39,11 @@ a {
 }
 
 /* COL-FLEX */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 .col-3 {
     width: calc((100% / 12) * 3);
 }
@@ -64,19 +69,15 @@ a {
 }
 
 .row-header {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 5px;
 }
 
 .row-information {
-    display: flex;
     justify-content: space-between;
 }
 
 .row-support-login {
-    display: flex;
     justify-content: space-between;
 }
 
@@ -114,10 +115,7 @@ h1 {
     flex-direction: column;
 }
 
-.row-hero {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 
 .row-hero-text {
     display: flex;
@@ -175,16 +173,46 @@ h1 {
 }
 
 /*card*/
-.card {
+.card-subscriptions {
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    background-color: brown;
+    background-color: white;
     max-width: 100%;
+    gap: 14px;
+    line-height: 30px;
+    font-size: 12px;
     
 }
 
+.page-card-subscriptions {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
 
+.main-card-subscriptions {
+    padding: 10px;
+}
+
+.main-card-subscriptions h2 {
+    font-size: 20px;
+}
+
+
+.privileges {
+    padding: 10px;
+}
+
+.free-trial {
+    padding: 10px;
+}
+
+.button-free-trial {
+    text-align: center;
+}
+.Professional {
+    padding: 10px;
+}
 /*Debug*/
 
 /* .debug .container-medium {
@@ -199,7 +227,7 @@ h1 {
 
 
 
-.debug .col-4-card {
+.debug .col-4 {
     
     background-color: aqua;
     min-height: 80px;
@@ -209,7 +237,7 @@ h1 {
 }
 
 
-.debug .col-12-card {
+.debug .col-12 {
     border: 1px solid black;
     min-height: 80px;
     width: 100%;
