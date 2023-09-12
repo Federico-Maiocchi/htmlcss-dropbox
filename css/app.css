@@ -161,7 +161,6 @@ h1 {
 
 /*SUB*/
 .container-medium-subscriptions {
-    border: 1px solid black;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -172,6 +171,17 @@ h1 {
     width: 100%;
 }
 
+.subscriptions .col-4 {
+    width: calc((100% / 12) * 4);
+    padding: 25px;
+}
+
+
+.subscriptions .col-12 {
+    border: 1px solid black;
+    height: 120px;
+}
+
 /*card*/
 .card-subscriptions {
     border: 1px solid black;
@@ -180,7 +190,7 @@ h1 {
     background-color: white;
     max-width: 100%;
     gap: 14px;
-    line-height: 30px;
+    line-height: 20px;
     font-size: 12px;
     
 }
@@ -192,15 +202,18 @@ h1 {
 
 .main-card-subscriptions {
     padding: 10px;
+    line-height: 24px;
 }
 
 .main-card-subscriptions h2 {
     font-size: 20px;
+    line-height: 24px;
 }
 
 
 .privileges {
     padding: 10px;
+    line-height: 24px;
 }
 
 .free-trial {
@@ -212,6 +225,11 @@ h1 {
 }
 .Professional {
     padding: 10px;
+    line-height: 24px;
+}
+
+.Professional > h5 {
+    font-size: 13px;
 }
 /*Debug*/
 
@@ -227,21 +245,7 @@ h1 {
 
 
 
-.debug .col-4 {
-    
-    background-color: aqua;
-    min-height: 80px;
-    padding: 10px;
-    width: calc((100% / 12) * 4);
-    padding: 25px;
-}
 
-
-.debug .col-12 {
-    border: 1px solid black;
-    min-height: 80px;
-    width: 100%;
-}
  
 
 
