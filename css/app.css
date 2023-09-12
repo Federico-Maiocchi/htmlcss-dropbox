@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;    
+}
+
 img {
     max-width: 100%;
 }
@@ -15,7 +19,7 @@ ul,ol {
 
 a {
     text-decoration: none;
-    color: black;
+    color: currentColor;
 }
 
 /*CONTAINER*/
@@ -119,12 +123,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    align-items: flex-start;
     gap: 30px;
     flex-grow: 1;
 }
 
 .button {
     background-color: #0061FF;
+    display: inline-block;
     color: white;
     line-height: 45px;
     padding: 0px 10px;
@@ -148,6 +154,9 @@ h1 {
     margin-bottom: 20px;
 }
 
+.fatturation {
+    margin-right: 100px;
+}
 /* .container-medium {
     border: 1px solid black;
 } */
@@ -167,11 +176,15 @@ h1 {
 
 /*card*/
 .card {
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
     background-color: brown;
     max-width: 100%;
+    
 }
+
+
 /*Debug*/
 
 /* .debug .container-medium {
@@ -187,11 +200,12 @@ h1 {
 
 
 .debug .col-4-card {
-    border: 1px solid black;
+    
     background-color: aqua;
     min-height: 80px;
     padding: 10px;
     width: calc((100% / 12) * 4);
+    padding: 25px;
 }
 
 
