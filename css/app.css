@@ -256,7 +256,11 @@ h1 {
 
 /*business work*/
 .dropbox-business {
-    border: 1px solid black;
+    margin-bottom: 80px;
+}
+
+.dropbox-business h2 {
+    margin-bottom: 20px;
 }
 
 .dropbox-business [class^='col-'] {
@@ -285,6 +289,24 @@ h1 {
     gap: 20px;
 }
 
+/* Customer-reviews */
+.customer-reviews {
+    margin-bottom: 60px;
+}
+
+.row-customer-reviews {
+    gap: 55px;
+    flex-direction: column;
+}
+
+.row-customer-reviews > a {
+    font-size: 15px;
+}
+
+.a-reset {
+    text-decoration: underline;
+    color: blue;
+}
 /*Debug*/
 
 /* .debug .container-medium {
