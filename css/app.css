@@ -165,7 +165,7 @@ h1 {
 /*SUB*/
 
 .subscriptions {
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .container-medium-subscriptions {
     max-width: 1000px;
@@ -240,11 +240,11 @@ h1 {
 }
 
 /*partner*/
-/* .dropbox-partner .container-medium {
-    border: 1px solid black;
-} */
-
-
+.dropbox-partner {
+    margin-bottom: 80px;
+    padding: 10px;
+}
+ 
 .dropbox-partner .row .col-4 {
     display: flex;
     flex-direction: column;
@@ -255,6 +255,35 @@ h1 {
 }
 
 /*business work*/
+.dropbox-business {
+    border: 1px solid black;
+}
+
+.dropbox-business [class^='col-'] {
+    padding: 10px;
+}
+
+/* .card-business {
+    border: 1px solid black;
+    background-color: red;
+} */
+.card-title {
+    line-height: 18px;
+    font-size: 20px;
+}
+
+.card-description {
+    font-size: 15px;
+}
+
+.card-business > figure {
+    margin-bottom: 10px;
+}
+.card-business-contents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 /*Debug*/
 
@@ -269,26 +298,5 @@ h1 {
 } */
 
 
-.debug .dropbox-business {
-    border: 1px solid black;
-}
-
-.dropbox-business [class^='col-'] {
-    padding: 10px;
-}
-
-.card-business {
-    border: 1px solid black;
-    background-color: red;
-}
-
-.card-business > figure {
-    margin-bottom: 10px;
-}
-.card-business-contents {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
 
