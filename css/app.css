@@ -44,6 +44,11 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+
+.col-2 {
+    width: calc((100% / 12) + 2);
+}
+
 .col-3 {
     width: calc((100% / 12) * 3);
 }
@@ -114,8 +119,6 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-
-
 
 .row-hero-text {
     display: flex;
@@ -237,9 +240,9 @@ h1 {
 }
 
 /*partner*/
-.dropbox-partner .container-medium {
+/* .dropbox-partner .container-medium {
     border: 1px solid black;
-}
+} */
 
 
 .dropbox-partner .row .col-4 {
@@ -250,6 +253,9 @@ h1 {
     gap: 20px;
     padding: 20px;
 }
+
+/*business work*/
+
 /*Debug*/
 
 /* .debug .container-medium {
@@ -263,9 +269,13 @@ h1 {
 } */
 
 
+.debug .dropbox-business {
+    border: 1px solid black;
+}
 
-
- 
+.dropbox-business [class^='col-'] {
+    padding: 10px;
+}
 
 
 
