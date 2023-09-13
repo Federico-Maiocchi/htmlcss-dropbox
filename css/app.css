@@ -46,7 +46,7 @@ a {
 }
 
 .col-2 {
-    width: calc((100% / 12) + 2);
+    width: calc((100% / 12) * 2);
 }
 
 .col-3 {
@@ -432,6 +432,26 @@ background-color: #FFD830;
     border-top: 40px;
 }
 
+/* FOOTER list */
+.footer-page {
+    background-color: #000000;
+
+}
+
+.container-large .container-footer {
+    
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+}
+
+.col-footer {
+    width: calc((100% / 5) * 10);
+    background-color: #f5f5f5;
+}
 /*Debug*/
 
 /* .debug .container-medium {
