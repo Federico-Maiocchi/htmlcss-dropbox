@@ -22,8 +22,11 @@ a {
     color: currentColor;
 }
 
-/*CONTAINER*/
+h2 {
+    font-size: 35px;
+}
 
+/*CONTAINER*/
 .container-full {
     max-width: 100%;
 }
@@ -39,7 +42,6 @@ a {
 }
 
 /* COL-FLEX */
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -72,6 +74,7 @@ a {
 .col-12 {
     width: 100%;
 }
+
 /*HEADER*/
 .header-page {
     padding: 10px;
@@ -106,6 +109,7 @@ a {
     background-color: #0061FF;
     color: white;
 }
+
 /*Main*/
 /*HERO*/
 .hero {
@@ -162,12 +166,8 @@ h1 {
 .fatturation {
     margin-right: 100px;
 }
-/* .container-medium {
-    border: 1px solid black;
-} */
 
 /*SUB*/
-
 .subscriptions {
     margin-bottom: 80px;
 }
@@ -187,12 +187,6 @@ h1 {
     width: calc((100% / 12) * 4);
     padding: 25px;
 }
-
-
-/* .subscriptions .col-12 {
-    height: 120px;
-    border: 1px solid black;
-} */
 
 /*card*/
 .card-subscriptions {
@@ -222,7 +216,6 @@ h1 {
     font-size: 20px;
     line-height: 24px;
 }
-
 
 .privileges {
     padding: 10px;
@@ -273,10 +266,6 @@ h1 {
     padding: 10px;
 }
 
-/* .card-business {
-    border: 1px solid black;
-    background-color: red;
-} */
 .card-title {
     line-height: 18px;
     font-size: 20px;
@@ -313,11 +302,6 @@ h1 {
     text-decoration: underline;
     color: blue;
 }
-
-/* Important customer */
-/* .important-customers [class^='col-4'] {
-    border: 1px solid black;
-} */
 
 .regular-logo {
     aspect-ratio: 1/1;
@@ -371,8 +355,8 @@ background-color: #0D2481;
 .clear {
 background-color: #FFD830;
 }
-/* COMPANY */
 
+/* COMPANY */
 .company {
     padding: 25px;
     background-color: #f5f5f5;
@@ -400,7 +384,7 @@ background-color: #FFD830;
 /*Dropbox compani button*/
 .dropbox-company {
     background-color: #B4D0E7;
-    padding: 80px 0px;
+    padding: 100px 0px;
 }
 
 /* Questions */
@@ -435,7 +419,6 @@ background-color: #FFD830;
 /* FOOTER list */
 .footer-page {
     background-color: #000000;
-    
 }
 
 .list-details-informations {
@@ -480,27 +463,10 @@ background-color: #FFD830;
     display: flex;
     flex-wrap: wrap;
     color: white;
+    opacity: 0.7;
     gap: 10px;
 }
 
 .row-select-language > p {
     font-size: 14px ;
 }
-/*Debug*/
-
-/* .debug .container-medium {
-    border: 1px solid black;
-} */
-
-/* .container-medium-subscriptions {
-    border: 1px solid black;
-    max-width: 1000px;
-    margin: 0 auto;
-} */
-
-
-
-
-
-
-
