@@ -416,13 +416,14 @@ background-color: #FFD830;
     gap: 20px;
 }
 
-.row-questions p {
-    border-top: 2px solid black;
-}
+
 
 .single-question {
+    border-top: 1px solid black;
     display: flex;
     flex-wrap: wrap;
+    gap: 40px;
+    line-height: 40px;
 }
 
 
