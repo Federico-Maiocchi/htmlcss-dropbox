@@ -435,22 +435,32 @@ background-color: #FFD830;
 /* FOOTER list */
 .footer-page {
     background-color: #000000;
-
+    padding: 80px 0px;
 }
 
-.container-large .container-footer {
-    
-}
+
 
 .row-footer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 0px;
+    justify-content: space-between;
 }
 
 .col-footer {
-    width: calc((100% / 5) * 10);
-    background-color: #f5f5f5;
+    width: calc((100% / 12) * 2);
+    color: #f5f5f5;
+}
+
+.bg-white {
+    color: white;
+    line-height: 25px;
+}
+
+.title-list {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.i-list {
+    font-size: 12px;
 }
 /*Debug*/
 
