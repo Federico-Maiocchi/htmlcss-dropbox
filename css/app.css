@@ -315,9 +315,9 @@ h1 {
 }
 
 /* Important customer */
-.important-customers [class^='col-4'] {
+/* .important-customers [class^='col-4'] {
     border: 1px solid black;
-}
+} */
 
 .regular-logo {
     aspect-ratio: 1/1;
@@ -333,7 +333,6 @@ h1 {
 }
 
 .important-customers [class^='col-6'] {
-    border: 1px solid black;
     flex-basis: 50%;
     padding: 35px;
     display: flex;
@@ -376,7 +375,7 @@ background-color: #FFD830;
 
 .company {
     padding: 25px;
-    
+    background-color: #f5f5f5;
 }
 
 .company-logo {
@@ -397,12 +396,15 @@ background-color: #FFD830;
     font-size: 13px;
     line-height: 20px;
 }
+/*DROPBOX BUSINESS COMPANY*/
+
 
 
 
 /*Dropbox compani button*/
 .dropbox-company {
     background-color: #B4D0E7;
+    padding: 80px 0px;
 }
 
 
