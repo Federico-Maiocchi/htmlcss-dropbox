@@ -416,16 +416,21 @@ background-color: #FFD830;
     gap: 20px;
 }
 
-
-
 .single-question {
     border-top: 1px solid black;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-    line-height: 40px;
+    justify-content: space-between;
+    line-height: 60px;
 }
 
+.single-question:last-child {
+    border-bottom: 1px solid black;
+}
+
+.single-question > i {
+    border-top: 40px;
+}
 
 /*Debug*/
 
