@@ -319,6 +319,10 @@ h1 {
     border: 1px solid black;
 }
 
+.regular-logo {
+    aspect-ratio: 1/1;
+}
+
 .customers {
     display: block;
 }
@@ -327,6 +331,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
 }
+
 .important-customers [class^='col-6'] {
     border: 1px solid black;
     flex-basis: 50%;
@@ -334,6 +339,66 @@ h1 {
     display: flex;
     align-items: center;
 }
+
+/*color customers*/
+.designit {
+    background-color: #A2D39B ;
+}
+
+.arizona {
+background-color: #61082B;
+}
+
+.florida {
+background-color: #0093ce;
+}
+
+.topps {
+background-color: #FF1C1C;
+}
+
+.bicycle {
+background-color: #D5001F;
+}
+
+.hearst {
+background-color: #B4D0E7;
+}
+
+.lonely {
+background-color: #0D2481;
+}
+
+.clear {
+background-color: #FFD830;
+}
+/* COMPANY */
+
+.company {
+    padding: 25px;
+    
+}
+
+.company-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.company hr {
+    margin-bottom: 20px;
+}
+.company-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.company-body p {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+
 
 /*Dropbox compani button*/
 .dropbox-company {
