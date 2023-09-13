@@ -404,6 +404,26 @@ background-color: #FFD830;
 }
 
 /* Questions */
+.questions {
+    padding: 80px 0px;
+}
+
+.questions h2 {
+    margin-bottom: 30px;
+}
+
+.row-questions {
+    gap: 20px;
+}
+
+.row-questions p {
+    border-top: 2px solid black;
+}
+
+.single-question {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /*Debug*/
