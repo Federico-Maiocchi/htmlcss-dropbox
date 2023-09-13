@@ -435,10 +435,12 @@ background-color: #FFD830;
 /* FOOTER list */
 .footer-page {
     background-color: #000000;
-    padding: 80px 0px;
+    
 }
 
-
+.list-details-informations {
+    padding: 80px 0px;
+}
 
 .row-footer {
     justify-content: space-between;
@@ -461,6 +463,28 @@ background-color: #FFD830;
 
 .i-list {
     font-size: 12px;
+}
+
+/* LANGUAGE */
+
+.language {
+    padding: 20px 0px;
+}
+
+.hr-language {
+    width: 15%;
+    margin: 30px 0px;
+}
+
+.row-select-language {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    gap: 10px;
+}
+
+.row-select-language > p {
+    font-size: 14px ;
 }
 /*Debug*/
 
