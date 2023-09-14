@@ -309,6 +309,7 @@ h1 {
 
 .customers {
     display: block;
+    filter: invert(1);
 }
 
 .flex-img {
